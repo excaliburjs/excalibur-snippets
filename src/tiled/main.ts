@@ -26,4 +26,4 @@ game.start(loader).then(() => {
     tiledMapResource.addTiledMapToScene(game.currentScene);
     game.currentScene.camera.zoom = 2;
 });
-// start-snippet{tiled}
+// end-snippet{tiled}
