@@ -21,7 +21,7 @@ const runSheet = ex.SpriteSheet.fromImageSource({
 const runAnim = ex.Animation.fromSpriteSheet(runSheet, ex.Util.range(1, 10), 200);
 
 const actor = new ex.Actor({
-    pos: ex.vec(100, 100)
+    pos: ex.vec(game.halfDrawWidth, game.halfDrawHeight)
 });
 actor.graphics.use(runAnim);
 // end-snippet{animation}
