@@ -1,5 +1,5 @@
 import * as ex from 'excalibur';
-
+// start-snippet{animation}
 import runImageSrc from './player-run.png'
 const game = new ex.Engine({
     width: 600,
@@ -24,6 +24,7 @@ const actor = new ex.Actor({
     pos: ex.vec(100, 100)
 });
 actor.graphics.use(runAnim);
+// end-snippet{animation}
 
 const loader = new ex.Loader([runImage]);
 game.start(loader).then(() => {
