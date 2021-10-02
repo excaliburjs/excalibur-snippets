@@ -28,7 +28,7 @@
     "parcel": "2.0.0-rc.0"
   },
   "dependencies": {
-    "excalibur": "0.25.0-alpha.228",
+    "excalibur": "0.25.0-alpha.242",
     "@excaliburjs/plugin-tiled": "v0.25.0-alpha.3",
     "typescript": "4.4.3"
   }
