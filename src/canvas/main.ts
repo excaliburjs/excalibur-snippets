@@ -5,6 +5,7 @@ const game = new ex.Engine({
     height: 400
 });
 
+// start-snippet{canvas}
 const canvas = new ex.Canvas({
     cache: true,
     draw: (ctx) => {
@@ -19,6 +20,7 @@ const actor = new ex.Actor({
 });
 
 actor.graphics.use(canvas);
+// end-snippet{canvas}
 
 game.start().then(() => {
     game.currentScene.add(actor);
