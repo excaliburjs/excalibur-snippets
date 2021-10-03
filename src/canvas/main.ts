@@ -7,7 +7,7 @@ const game = new ex.Engine({
 
 // start-snippet{canvas}
 const canvas = new ex.Canvas({
-    cache: true,
+    cache: true,  // If true draw once until flagged dirty again, otherwise draw to Canvas every frame
     draw: (ctx) => {
         console.log('With cache=true I draw once');
         ctx.fillStyle = 'red';
