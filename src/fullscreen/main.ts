@@ -14,6 +14,9 @@ game.start(loader).then(() => {
     actor.graphics.use(playerImage.toSprite());
     game.currentScene.add(actor);
 });
+
+// start-snippet{fullscreen}
 document.getElementById('go-fullscreen')!.addEventListener('click', () => {
     game.screen.goFullScreen();
 });
+// end-snippet{fullscreen}
