@@ -49,6 +49,8 @@ for (let cell of tilemap.data) {
 
 const loader = new ex.Loader([kennyRougeLikePack])
 game.start(loader).then(() => {
+    game.currentScene.camera.pos = ex.vec(5 * 16, 5 * 16);
     game.currentScene.camera.zoom = 4;
     game.currentScene.add(tilemap);
 });
+
