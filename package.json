@@ -25,7 +25,7 @@
   "homepage": "https://github.com/excaliburjs/excalibur-snippets#readme",
   "devDependencies": {
     "@parcel/transformer-image": "2.0.0",
-    "parcel": "2.0.0"
+    "parcel": "2.2.0"
   },
   "dependencies": {
     "@excaliburjs/plugin-tiled": "0.25.1",
