@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/excaliburjs/excalibur-snippets#readme",
   "devDependencies": {
-    "@parcel/transformer-image": "2.0.0",
+    "@parcel/transformer-image": "2.2.0",
     "parcel": "2.0.0"
   },
   "dependencies": {
