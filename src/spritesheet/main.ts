@@ -35,7 +35,7 @@ const animation = new ex.Animation({
 
 const animation2 = ex.Animation.fromSpriteSheet(
     spriteSheet,
-    ex.Util.range(0, spriteSheet.sprites.length-1),
+    ex.range(0, spriteSheet.sprites.length-1),
     300,
     ex.AnimationStrategy.PingPong
 );

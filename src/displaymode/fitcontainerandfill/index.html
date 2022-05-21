@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DisplayMode.FitContainerAndFill Snippet</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .snippet-resizer { display:flex; margin:0; padding:0; resize:both; overflow:hidden }
+        .snippet-resizer > .snippet-resized { flex-grow:1; margin:0; padding:0; border:0 }
+
+        /* start-snippet{container-css} */
+        .container {
+            /* Flexbox used to center game */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* Container size with border */
+            border: red 4px dashed;
+            width: 50%;
+            height: 300px;
+        }
+        /* end-snippet{container-css} */
+    </style>
+</head>
+<body>
+    <!-- start-snippet{container-html} -->
+    <div class="container snippet-resizer">
+        <canvas id="game"></canvas>
+    </div>
+    <!-- end-snippet{container-html} -->
+    
+    <script type="module" src="./main.ts"></script>
+</body>
+</html>

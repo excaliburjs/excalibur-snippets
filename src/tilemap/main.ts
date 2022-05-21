@@ -30,16 +30,14 @@ const rougeLikeSpriteSheet = ex.SpriteSheet.fromImageSource({
 
 // Create a tilemap
 const tilemap = new ex.TileMap({
-    x: 0,
-    y: 0,
     rows: 10,
-    cols: 10,
-    cellWidth: 16,
-    cellHeight: 16,
+    columns: 10,
+    tileWidth: 16,
+    tileHeight: 16,
 });
 
 // loop through tilemap cells
-for (let cell of tilemap.data) {
+for (let cell of tilemap.tiles) {
     const sprite = rougeLikeSpriteSheet.getSprite(0, 0);
     if (sprite) {
         cell.addGraphic(sprite);
