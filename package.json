@@ -28,9 +28,9 @@
     "parcel": "2.2.1"
   },
   "dependencies": {
-    "@excaliburjs/plugin-tiled": "0.26.1",
-    "@excaliburjs/plugin-aseprite": "0.26.0",
-    "excalibur": "0.26.0",
+    "@excaliburjs/plugin-tiled": "0.27.0",
+    "@excaliburjs/plugin-aseprite": "0.27.0",
+    "excalibur": "0.27.0",
     "typescript": "4.5.5"
   }
 }
