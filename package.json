@@ -30,7 +30,7 @@
   "dependencies": {
     "@excaliburjs/plugin-tiled": "0.27.0",
     "@excaliburjs/plugin-aseprite": "0.27.0",
-    "excalibur": "0.27.0",
+    "excalibur": "0.31.0",
     "typescript": "4.5.5"
   }
 }
